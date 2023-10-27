@@ -1,22 +1,21 @@
-import react from "react";
-import Projects from "./Projects";
+import React from "react";
 import projects from "../projects.json";
 
-function ProjectCard2(){
+function ProjectCard2(props){
     return(
         <div className="row justify-content-between text-center mt-8">
                 <div className="col-lg-5 mx-auto mb-4">
                     <div className="card-body">
                         <div class="card">
-                            <img src={projects.image} alt={projects.name} class="card-img-top" ></img>
                             <div>
-                                <h4>{projects.name}</h4>
-                                <h6>Description</h6>
-                                <p class="card-text">{projects.desc}</p>
+                                <h4 className="text-info p3 text-center mb-3 font-monospace p-3">{props.name}</h4>
+                                <h6 className="text-info p3 text-center mb-3 font-monospace">Description</h6>
+                                { props.desc ? <p class="text-info p3 text-center mb-3 font-monospace">{props.desc}</p> : <p>fake paragraph will be here if the conditional fails</p>}
                             </div>
                             <div class="card-footer">
-                                <a href={projects.repo} class="btn btn-primary">Repository</a>
-                                <a href={projects.deployed} class="btn btn-primary">Deployed Website</a>
+                                <a href={props.repo} target="blank" class="btn btn-info btn-lg d-grid gap-2 col-6 mx-auto m-3 text-white">Repository</a>
+                                <a href={props.deployed} target="blank" class="btn btn-info btn-lg d-grid gap-2 col-6 mx-auto m-3 text-white">Deployed Website</a>
+                                <a href={props.image} target="blank" class="btn btn-info btn-lg d-grid gap-2 col-6 mx-auto m-3 text-white">Screenshot</a>
                             </div>
                         </div>
                     </div>

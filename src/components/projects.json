@@ -1,38 +1,44 @@
 [
     {
       "name": "Password-Generator",
-      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+      "image":"https://raw.githubusercontent.com/saycatnab/Password-Generator/main/img/Password-Generator-website.png", 
       "repo": "https://github.com/saycatnab/Password-Generator",
-      "deployed": "https://saycatnab.github.io/Password-Generator/"
+      "deployed": "https://saycatnab.github.io/Password-Generator/",
+      "description": "Using JavaScript logic to create a functioning password generator"
     },
     {
-        "name": "Password-Generator",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "repo": "https://github.com/saycatnab/Password-Generator",
-        "deployed": "https://saycatnab.github.io/Password-Generator/"
+        "name": "Website Dashboard",
+        "image": "https://cdn-icons-png.flaticon.com/512/8740/8740316.png",
+        "repo": "https://github.com/saycatnab/Weather-Dashboard",
+        "deployed": "",
+        "description": "Creating a weather application with a 5-day forecast, incl. wind, temperature and humidity for any city"
     },
     {
-        "name": "Password-Generator",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "repo": "https://github.com/saycatnab/Password-Generator",
-        "deployed": "https://saycatnab.github.io/Password-Generator/"
+        "name": "Daily-Panner-App",
+        "image": "https://github.com/saycatnab/Daily-Planner-App/blob/main/img/daily%20planner%20app.png",
+        "repo": "https://github.com/saycatnab/Daily-Planner-App",
+        "deployed": "https://saycatnab.github.io/Daily-Planner-App/",
+        "description": "Using jQuery logic to make a daily planner to write down tasks for each hour of the day."
     },
     {
-        "name": "Password-Generator",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "repo": "https://github.com/saycatnab/Password-Generator",
-        "deployed": "https://saycatnab.github.io/Password-Generator/"
+        "name": "Recipe-Youtube-Guide",
+        "image": "",
+        "repo": "https://github.com/balalsaleh/recipe-youtube-guide",
+        "deployed": "https://balalsaleh.github.io/recipe-youtube-guide/index.html",
+        "description": "Using jQuery logic to make a daily planner to write down tasks for each hour of the day."
     },
     {
-        "name": "Password-Generator",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "repo": "https://github.com/saycatnab/Password-Generator",
-        "deployed": "https://saycatnab.github.io/Password-Generator/"
+        "name": "Bootstrap-Portfolio",
+        "image": "",
+        "repo": "https://github.com/saycatnab/My-Bootstrap-Portfolio",
+        "deployed": "https://saycatnab.github.io/My-Bootstrap-Portfolio/",
+        "description": "Making a portfolio using Bootstrap"
     },
     {
-        "name": "Password-Generator",
-        "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "repo": "https://github.com/saycatnab/Password-Generator",
-        "deployed": "https://saycatnab.github.io/Password-Generator/"
+        "name": "React-Portfolio",
+        "image": "",
+        "repo": "https://github.com/saycatnab/React-Portfolio",
+        "deployed": "https://saycatnab.github.io/React-Portfolio/",
+        "description": "Creating a portfolio using React, which includes all my latest projects. Also includes an Home page, a Projects pages and a Contact page."
     }
 ]
